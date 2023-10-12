@@ -25,4 +25,4 @@ var searchInsert = function (nums, target) {
   return search(start, end);
 };
 
-console.log(searchInsert([1, 2, 3, 5, 7]));
+console.log(searchInsert([1, 2, 3, 5, 7], 1));
