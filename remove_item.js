@@ -18,3 +18,22 @@ var removeElements = function(head, val) {
     return dummy.next
 
 };
+//Revised 2024/07/25 1:02 PM
+
+// var removeElements = function(head, val) {
+//     if(!head) return head
+//     let dummy = new ListNode(0)
+//     dummy.next = head
+//     let current = dummy.next
+//     let final = dummy
+//     while(current){
+//         if(current.val === val){
+//             final.next = current.next
+//         }else {
+//             final = final.next
+//             }
+//         current = current.next
+//     }
+//     return dummy.next
+    
+// };
